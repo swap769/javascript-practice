@@ -24,79 +24,79 @@ for (let i = 0; i <= companies.length; i++) {
   console.log(companies[i]);
 }
 
-//forEach
+forEach
 
-// companies.forEach(function (company, index) {
-//   console.log(index);
-// });
+companies.forEach(function (company, index) {
+  console.log(index);
+});
 
-// companies.forEach((company, index) => console.log(company));
+companies.forEach((company, index) => console.log(company));
 
-//filter for standard structure
+filter for standard structure
 
-// for (let i = 0; i < ages.length; i++) {
-//   if (ages[i] >= 20) {
-//     console.log(ages[i]);
-//   }
-// }
+for (let i = 0; i < ages.length; i++) {
+  if (ages[i] >= 20) {
+    console.log(ages[i]);
+  }
+}
 
-//filter
+filter
 
-// const age = ages.filter((age) => {
-//   if (age >= 20) {
-//     return true;
-//   }
-// });
-// console.log(age);
+const age = ages.filter((age) => {
+  if (age >= 20) {
+    return true;
+  }
+});
+console.log(age);
 
-// const finalAge = ages.filter((age) => age >= 40);
-// console.log(finalAge);
+const finalAge = ages.filter((age) => age >= 40);
+console.log(finalAge);
 
-// const result = companies.filter((company) => {
-//   if (company.category === "Service Based") {
-//     return true;
-//   }
-// });
-// console.log(result);
+const result = companies.filter((company) => {
+  if (company.category === "Service Based") {
+    return true;
+  }
+});
+console.log(result);
 
-//map function as standard structure
+map function as standard structure
 
-// companies.map((company, index) => {
-//   console.log(company, index);
-// });
+companies.map((company, index) => {
+  console.log(company, index);
+});
 
-// const dummy = companies.map((company, index) => {
-//   return `${company.name}, ${company.category}`;
-// });
+const dummy = companies.map((company, index) => {
+  return `${company.name}, ${company.category}`;
+});
 
-// console.log(dummy);
+console.log(dummy);
 
-//Sort
-// const sorted = companies.sort(function (c1, c2) {
-//   if (c1.start > c2.start) {
-//     return true;
-//   } else {
-//     return false;
-//   }
+Sort
+const sorted = companies.sort(function (c1, c2) {
+  if (c1.start > c2.start) {
+    return true;
+  } else {
+    return false;
+  }
 
-// });
+});
 
-// const res = ages.sort();
-// console.log(res);
+const res = ages.sort();
+console.log(res);
 
-// const sorted = companies.sort((c1, c2) => (c1.start > c2.start ? 1 : -1));
-// console.log(sorted);
+const sorted = companies.sort((c1, c2) => (c1.start > c2.start ? 1 : -1));
+console.log(sorted);
 
-// const sortedAge = ages.sort((a, b) => a - b);
-// console.log(sortedAge);
+const sortedAge = ages.sort((a, b) => a - b);
+console.log(sortedAge);
 
-//reduce
+reduce
 
-// let total = 0;
-// for (let i = 0; i < ages.length; i++) {
-//   total += ages[i];
-// }
-// console.log(total);
+let total = 0;
+for (let i = 0; i < ages.length; i++) {
+  total += ages[i];
+}
+console.log(total);
 
 
 const sumage = ages.reduce((total, age) => {
