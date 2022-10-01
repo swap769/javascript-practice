@@ -1,6 +1,6 @@
 let counter = 0;
 function getData() {
-  console.log("fectching data" + counter++);
+  console.log("fectching data" + counter++,"");
 }
 function myDebounce(call, d) {
   let timer;
