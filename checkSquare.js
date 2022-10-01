@@ -1,11 +1,11 @@
-//checking square in another array
-// arr1=[1,2,3,4] and arr2=[1,9,4,16]
+checking square in another array
+arr1=[1,2,3,4] and arr2=[1,9,4,16]
 
-// condition
-// 1. if (array1[i]*array1[i]===array2[j])
-//let  isSquare=true
+condition
+1. if (array1[i]*array1[i]===array2[j])
+let  isSquare=true
 
-// time complexity(o(n^2))
+time complexity(o(n^2))
 
 function isSquareCheck(arr1, arr2) {
     for (let i = 0; i < arr1.length; i++) {
