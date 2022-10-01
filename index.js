@@ -24,7 +24,7 @@ for (let i = 0; i <= companies.length; i++) {
   console.log(companies[i]);
 }
 
-forEach
+//forEach
 
 companies.forEach(function (company, index) {
   console.log(index);
@@ -32,7 +32,7 @@ companies.forEach(function (company, index) {
 
 companies.forEach((company, index) => console.log(company));
 
-filter for standard structure
+//filter for standard structure
 
 for (let i = 0; i < ages.length; i++) {
   if (ages[i] >= 20) {
@@ -40,7 +40,7 @@ for (let i = 0; i < ages.length; i++) {
   }
 }
 
-filter
+//filter
 
 const age = ages.filter((age) => {
   if (age >= 20) {
@@ -59,7 +59,7 @@ const result = companies.filter((company) => {
 });
 console.log(result);
 
-map function as standard structure
+//map function as standard structure
 
 companies.map((company, index) => {
   console.log(company, index);
@@ -71,7 +71,7 @@ const dummy = companies.map((company, index) => {
 
 console.log(dummy);
 
-Sort
+//Sort
 const sorted = companies.sort(function (c1, c2) {
   if (c1.start > c2.start) {
     return true;
@@ -90,7 +90,7 @@ console.log(sorted);
 const sortedAge = ages.sort((a, b) => a - b);
 console.log(sortedAge);
 
-reduce
+//reduce
 
 let total = 0;
 for (let i = 0; i < ages.length; i++) {
