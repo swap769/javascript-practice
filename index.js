@@ -1,10 +1,10 @@
-// Higher order function
+Higher order function
 
-//forEach
-//filter
-//map
-//sort
-//reduce
+forEach
+filter
+map
+sort
+reduce
 
 const companies = [
   { name: "Google", category: "Product Based", start: 1981, end: 2004 },
